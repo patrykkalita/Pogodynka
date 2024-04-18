@@ -1,5 +1,10 @@
 ## Instrukcja obsługi
 - Pobieramy folder z plikami projektu
+  - W pliku main.py wprowadamy swoje klucze api dla Openweathermap i OpenAI
+    '''
+    os.environ["OPENWEATHERMAP_API_KEY"] = "OPENWEATHERMAP_API_KEY"
+    llm = OpenAI(temperature=0, api_key="OPENAI_API_KEY")
+    '''
 - W terminalu, przechodzimy do lokalizacji w której mamy folder z projektem
 - Za pomocą poniższej komendy budujemy obraz Docker
 ```console
