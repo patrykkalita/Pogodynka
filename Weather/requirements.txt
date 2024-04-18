@@ -1,0 +1,6 @@
+streamlit
+langchain
+pyowm
+translate
+setuptools
+openai
