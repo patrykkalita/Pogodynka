@@ -1,6 +1,6 @@
 ## Instrukcja obsługi
 - Pobieramy folder z plikami projektu
-  - W pliku main.py wprowadamy swoje klucze api dla Openweathermap i OpenAI
+  - W pliku main.py wprowadzamy swoje klucze api dla Openweathermap i OpenAI
   ```python
   os.environ["OPENWEATHERMAP_API_KEY"] = "OPENWEATHERMAP_API_KEY"
   llm = OpenAI(temperature=0, api_key="OPENAI_API_KEY")
