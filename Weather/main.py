@@ -11,10 +11,10 @@ from translate import Translator
 translator = Translator(to_lang="pl")
 
 # Ustawienie klucza api dla Openweathermap
-os.environ["OPENWEATHERMAP_API_KEY"] = "7765a3a9beef89a51e50796563213773"
+os.environ["OPENWEATHERMAP_API_KEY"] = "OPENWEATHERMAP_API_KEY"
 
 # Inicjalizacja modelu językowego OpenAI, podanie klucza api
-llm = OpenAI(temperature=0, api_key="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")
+llm = OpenAI(temperature=0, api_key="OPENAI_API_KEY")
 
 # Inicjalizacja narzędzia dla api pogody poza funkcją aplikacji Streamlit, aby uniknąć ponownej inicjalizacji przy każdej iteracji
 tools = load_tools(["openweathermap-api"], llm)
